@@ -25,4 +25,7 @@ By looking at the average entries and exits across different time slots, the tim
 
 So our recommendation to WTWY, based on analysis of only the MTA and Digital NYC data is that the street teams should be located at 14 St Union Square station, 23 St. station, 28 St. station, Wall St. station, Fulton St. station and Spring St. stations between 4pm - 9pm on weekdays, targeting commuters exiting the station. 
 
+!(https://github.com/KeerthiPamulaparthy/KeerthiPamulaparthy.github.io/blob/master/_posts/stations.png)
+
+
 
