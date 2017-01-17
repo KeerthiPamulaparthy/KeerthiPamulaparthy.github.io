@@ -1,6 +1,6 @@
 ---
 layout: post
-title: **Along the Subway Line**
+title: Along the Subway Line
 ---
 
 Whether you are heading to work or home, whether you are going out to meet a friend or going to school, you are most likely to ride the New York City’s subway system. 
