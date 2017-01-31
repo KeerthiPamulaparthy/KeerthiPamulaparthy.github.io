@@ -1,4 +1,5 @@
 What is web scrapping?
+
 Web scrapping involves extracting data that is on websites, and converting it into a format that can be used for data annlysis.
 
 There are several tools for web scrapping, Beautiful Soup being  just one of them. Beautiful Soup is a python library for pulling data out of HTML and XML files.
@@ -7,7 +8,9 @@ In this post, we will learn how to do webscrapping of movie data:
 
 a. Getting started with Beautiful Soup
 To install Beautiful Soup, do
+```python
 $ pip install beautifulsoup4
+```
 
 b. HTML page structure
 Before beginning web scrapping, it is useful to know the structure of a HTML Document.
@@ -25,8 +28,9 @@ The tags in a html document, help us identify the different elements in a html d
 
 <tag_name>content...</tag_name>
 
-Tags come in pairs, and the first tag in the pair is a start tag and the second tag is the end tag. A start tag also often contains "attributes" with info about the element.
-Attributes usually have a name and value. For example, <p class="my_red_sentences">You are beginning to learn HTML.</p>
+Tags come in pairs, and the first tag in the pair is a start tag and the second tag is the end tag. A start tag also often contains "attributes" with info about the element.Attributes usually have a name and value. 
+
+For example, <p class="my_red_sentences">You are beginning to learn HTML.</p>
 Our task at hand, is the identify the tags that contain the information we are interested in and extract the information.
 ![html](html2.png)
 
@@ -34,13 +38,15 @@ Beautiful Soup contains a set of wrapper functions that make it easy to select c
 
 c. Scrapping: I scrapped movie data for my project and here is the image of the website, we will scape data from.
 ![title](boxofficemojo.png)
-Steps:
 
+Steps:
 Using, the requests library, we can get and view the content of the HTML page.
+
 ```python
 import requests
 from bs4 import BeautifulSoup
 ```
+
 ```python
 url = 'http://www.boxofficemojo.com/genres/chart/?id=animation.htm&sort=rank&order=ASC&p=.htm'
 response = requests.get(url)
