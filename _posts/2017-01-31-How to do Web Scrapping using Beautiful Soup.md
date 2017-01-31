@@ -7,7 +7,8 @@ There are several tools for web scrapping, Beautiful Soup being  just one of the
 In this post, we will learn how to do webscrapping of movie data: 
 
 a. Getting started with Beautiful Soup
-To install Beautiful Soup, do
+To install Beautiful Soup, do  
+
 ```python
 $ pip install beautifulsoup4
 ```
