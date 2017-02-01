@@ -33,7 +33,7 @@ Tags come in pairs, and the first tag in the pair is a start tag and the second 
 
 For example, <p class="my_red_sentences">You are beginning to learn HTML.</p>
 Our task at hand, is the identify the tags that contain the information we are interested in and extract the information.
-![html](html2.png)
+![image2](html2.png)
 
 Beautiful Soup contains a set of wrapper functions that make it easy to select common HTML elements.
 
