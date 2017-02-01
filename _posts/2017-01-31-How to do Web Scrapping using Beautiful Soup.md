@@ -18,12 +18,12 @@ Before beginning web scrapping, it is useful to know the structure of a HTML Doc
 Below is a visualization of an HTML page structure:
 ![title](html.png)
 
-The <html> element is the root element of an HTML page
-The <head> element contains meta information about the document
-The <title> element specifies a title for the document
-The <body> element contains the visible page content
-The <h1> element defines a large heading
-The <p> element defines a paragraph
+The \<html> element is the root element of an HTML page
+The \<head> element contains meta information about the document
+The \<title> element specifies a title for the document
+The \<body> element contains the visible page content
+The \<h1> element defines a large heading
+The \<p> element defines a paragraph
 
 The tags in a html document, help us identify the different elements in a html document. The start and end of a tag, follows this syntax:
 
